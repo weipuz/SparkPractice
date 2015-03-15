@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<project name="SparkPractice" default="CreateJar">
+    <target name="CreateJar" description="Create Jar file">
+        <scp file="stock_weipu.py" todir="weipuz:zwp7323790@rcg-linux-ts1.rcg.sfu.ca:CMPT732/assignment4/"
+             trust="true" />
+        <scp file="stocktick.py" todir="weipuz:zwp7323790@rcg-linux-ts1.rcg.sfu.ca:CMPT732/assignment4/"
+             trust="true" />
+    </target>
+</project>
